@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  caddy:
+    build: .
+    container_name: my_site
+    restart: unless-stopped
+    ports:
+      - "8888:80"
+      - "443:443"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+
+volumes:
+  caddy_data:
+  caddy_config:
