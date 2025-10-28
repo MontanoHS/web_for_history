@@ -46,6 +46,12 @@ footer{
     font-family: "CenturyGothic";
     padding: 30px;
 }
+.box{
+  position: relative;
+  width: 100%;
+  max-width: max-content;
+  margin: 0 auto;
+}
 .menu{
     display: flex;
     align-items: center;
