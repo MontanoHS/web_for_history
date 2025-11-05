@@ -94,7 +94,7 @@ footer{
     color: #1d1d1d;
     -webkit-text-stroke: 5px #258873;  /*Толщина и цвет обводки */
     font-size: 355px;
-    margin: -40px 0 0 400px;
+    margin: -40px 0 15px 400px;
     z-index: 0;
 }
 .bacground_logo{
