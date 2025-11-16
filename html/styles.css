@@ -17,6 +17,10 @@
 #opinions {
   scroll-margin-top: 30vh;
 }
+a {
+    color: white;
+    text-decoration: none;
+}
 html {
   scroll-behavior: smooth;
 }
