@@ -21,6 +21,12 @@ a {
     color: white;
     text-decoration: none;
 }
+.special-link {
+    color: #258873;
+}
+.special-link:hover {
+    color: #1a6152;
+}
 html {
   scroll-behavior: smooth;
 }
