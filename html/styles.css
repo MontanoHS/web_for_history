@@ -114,6 +114,10 @@ footer{
     width: 490px;
     margin: -620px 0 0 550px;
     transform: rotate(-15deg);
+    transition: transform 0.3s ease;
+}
+.bacground_logo:hover{
+    transform: scale(1.13);
 }
 .bacground_frase_txt{
     position: absolute;
